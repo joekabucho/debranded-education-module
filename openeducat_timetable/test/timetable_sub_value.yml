@@ -14,7 +14,7 @@
     code: 'BOA1-001T'
     type: 'theory'
 -
-   In order to use it in timetable I create Batch
+   In order to use it in timetable I create Cohort
 -
   !record {model: op.batch, id: batch_test}:
     name: 'BOA-S1'

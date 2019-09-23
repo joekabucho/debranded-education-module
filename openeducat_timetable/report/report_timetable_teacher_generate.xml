@@ -20,11 +20,11 @@
                                     <h2><b><span t-field='res_company.name'/></b></h2>
                                 </div>
                                 <div class="row text-center">
-                                    <h2><strong>Faculty TimeTables</strong></h2>
+                                    <h2><strong>Instructor TimeTables</strong></h2>
                                 </div>
                                 <br></br>
                                 <div class="text-left">
-                                    <b>Faculty Name:</b> <span t-esc="get_full_name(data)"/>
+                                    <b>Instructor Name:</b> <span t-esc="get_full_name(data)"/>
                                 </div>
                                 <br></br>
                                 <div class="row text-center">

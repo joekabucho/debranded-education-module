@@ -1,5 +1,5 @@
 -
-  Backoffice Admin can create student, faculty and partner  there for I checked it with that user who is backoffice admin.
+  Backoffice Admin can create Entrepreneur, faculty and partner  there for I checked it with that user who is backoffice admin.
 -
   !context
     uid: res_users_backoffice_admin_user_test
@@ -72,7 +72,7 @@
 -
   !record {model: op.library.card, id: library_card_test}:
     library_card_type_id: library_card_type_test
-    type: 'student'
+    type: 'Entrepreneur'
     partner_id: partner_sumita_test
     student_id: student_sumita_test
     issue_date: !eval datetime.now()

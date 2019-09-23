@@ -56,7 +56,7 @@
                                 domain="[]" context="{'group_by':'code'}"/>
                         <filter string="Course" name="group_by_attendance_register_course"
                                 domain="[]" context="{'group_by':'course_id'}"/>
-                        <filter string="Batch" name="group_by_attendance_register_batch"
+                        <filter string="Cohort" name="group_by_attendance_register_batch"
                                 domain="[]" context="{'group_by':'batch_id'}"/>
                     </group>
                 </search>

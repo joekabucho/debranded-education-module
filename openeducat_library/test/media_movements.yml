@@ -11,7 +11,7 @@
     media_unit_id: media_unit1_test
     library_card_id: library_card_test
     student_id: student_sumita_test
-    type: 'student'
+    type: 'Entrepreneur'
     state: 'available'
 -
   I clicked on Issue media button in media movement

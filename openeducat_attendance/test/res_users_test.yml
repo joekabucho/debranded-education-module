@@ -13,11 +13,11 @@
     groups_id:
       - openeducat_core.group_op_back_office
 -
-   Create an user as 'Faculty'
+   Create an user as 'Instructor'
 -
   !record {model: res.users, id: res_users_faculty_user_test, view: False}:
     company_id: base.main_company
-    name: Faculty Test
+    name: Instructor Test
     login: faculty
     email: facultytest@openeducat.org
 -

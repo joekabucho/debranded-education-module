@@ -32,7 +32,7 @@ class OpAllStudentWizard(models.TransientModel):
             self.env.context['active_id']).register_id.course_id.id or False,
         readonly=True)
     batch_id = fields.Many2one(
-        'op.batch', 'Batch',
+        'op.batch', 'Cohort',
         default=lambda self: self.env['op.attendance.sheet'].browse(
             self.env.context['active_id']).register_id.batch_id.id or False,
         readonly=True)

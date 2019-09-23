@@ -72,7 +72,7 @@ msgstr "Datum"
 
 #. module: openeducat_activity
 #: field:op.activity,faculty_id:0
-msgid "Faculty"
+msgid "Instructor"
 msgstr "Faculteit"
 
 #. module: openeducat_activity

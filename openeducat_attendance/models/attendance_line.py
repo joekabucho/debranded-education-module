@@ -41,7 +41,7 @@ class OpAttendanceLine(models.Model):
         related='attendance_id.register_id.course_id', store=True,
         readonly=True)
     batch_id = fields.Many2one(
-        'op.batch', 'Batch',
+        'op.batch', 'Cohort',
         related='attendance_id.register_id.batch_id', store=True,
         readonly=True)
     remark = fields.Char('Remark', size=256, track_visibility="onchange")

@@ -112,8 +112,8 @@ msgstr "Basisinformatie"
 #. module: openeducat_assignment
 #: view:op.assignment:openeducat_assignment.view_op_assignment_search
 #: field:op.assignment,batch_id:0
-msgid "Batch"
-msgstr "Batch"
+msgid "Cohort"
+msgstr "Cohort"
 
 #. module: openeducat_assignment
 #: view:op.assignment.sub.line:openeducat_assignment.view_op_assignment_sub_line_form

@@ -27,12 +27,12 @@
     groups_id:
       - openeducat_core.group_op_faculty
 -
-   Create an user as 'Student'
+   Create an user as 'Entrepreneur'
 -
   !record {model: res.users, id: res_users_student_user_test, view: False}:
     company_id: base.main_company
-    name: Student Test
-    login: student
+    name: Entrepreneur Test
+    login: entrepreneur
     email: studenttest@openeducat.org
 -
   I added groups to Student User.

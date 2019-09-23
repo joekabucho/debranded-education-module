@@ -110,8 +110,8 @@ msgstr "Candidature"
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_search
 #: field:op.admission,batch_id:0
-msgid "Batch"
-msgstr "Batch"
+msgid "Cohort"
+msgstr "Cohort"
 
 #. module: openeducat_admission
 #: field:op.admission,birth_date:0

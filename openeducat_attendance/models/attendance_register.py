@@ -35,7 +35,7 @@ class OpAttendanceRegister(models.Model):
     course_id = fields.Many2one(
         'op.course', 'Course', required=True, track_visibility='onchange')
     batch_id = fields.Many2one(
-        'op.batch', 'Batch', required=True, track_visibility='onchange')
+        'op.batch', 'Cohort', required=True, track_visibility='onchange')
     subject_id = fields.Many2one(
         'op.subject', 'Subject', track_visibility='onchange')
 

@@ -89,8 +89,8 @@ msgstr "Righe Presenze"
 #: field:op.attendance.line,batch_id:0
 #: view:op.attendance.register:openeducat_attendance.view_op_attendance_register_search
 #: field:op.attendance.register,batch_id:0
-msgid "Batch"
-msgstr "Batch"
+msgid "Cohort"
+msgstr "Cohort"
 
 #. module: openeducat_attendance
 #: view:student.attendance:openeducat_attendance.student_attendance_form

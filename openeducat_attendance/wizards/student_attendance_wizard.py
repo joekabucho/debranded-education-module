@@ -25,7 +25,7 @@ from odoo.exceptions import ValidationError
 
 class StudentAttendance(models.TransientModel):
     _name = "student.attendance"
-    _description = "Student Attendance"
+    _description = "Entrepreneur Attendance"
 
     from_date = fields.Date(
         'From Date', required=True, default=lambda self: fields.Date.today())

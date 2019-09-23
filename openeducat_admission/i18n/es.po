@@ -110,7 +110,7 @@ msgstr "Aplicaciones"
 #. module: openeducat_admission
 #: view:op.admission:openeducat_admission.view_op_admission_search
 #: field:op.admission,batch_id:0
-msgid "Batch"
+msgid "Cohort"
 msgstr "Lote"
 
 #. module: openeducat_admission

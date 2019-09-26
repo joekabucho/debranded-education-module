@@ -27,9 +27,9 @@ class OpStudentCourse(models.Model):
     _name = "op.student.course"
     _description = "Student Course Details"
 
-    student_id = fields.Many2one('op.student', 'Student', ondelete="cascade")
+    student_id = fields.Many2one('op.student', 'Entrepreneur', ondelete="cascade")
     course_id = fields.Many2one('op.course', 'Course', required=True)
-    batch_id = fields.Many2one('op.batch', 'Batch', required=True)
+    batch_id = fields.Many2one('op.batch', 'Cohort', required=True)
     roll_number = fields.Char('Roll Number')
     subject_ids = fields.Many2many('op.subject', string='Subjects')
 
@@ -48,7 +48,7 @@ class OpStudentCourse(models.Model):
 
 class OpStudent(models.Model):
     _name = "op.student"
-    _description = "Student"
+    _description = "Entrepreneur"
     _inherit = "mail.thread"
     _inherits = {"res.partner": "partner_id"}
 

@@ -31,7 +31,7 @@ class OpAssignment(models.Model):
 
     name = fields.Char('Name', size=64, required=True)
     course_id = fields.Many2one('op.course', 'Course', required=True)
-    batch_id = fields.Many2one('op.batch', 'Batch', required=True)
+    batch_id = fields.Many2one('op.batch', 'Cohort', required=True)
     subject_id = fields.Many2one('op.subject', 'Subject', required=True)
     faculty_id = fields.Many2one(
         'op.faculty', 'Instructor', default=lambda self: self.env[
@@ -52,7 +52,7 @@ class OpAssignment(models.Model):
     allocation_ids = fields.Many2many('op.student', string='Allocated To')
     assignment_sub_line = fields.One2many('op.assignment.sub.line',
                                           'assignment_id', 'Submissions')
-    reviewer = fields.Many2one('op.faculty', 'Faculty')
+    reviewer = fields.Many2one('op.faculty', 'Instructor')
 
     @api.multi
     @api.constrains('issued_date', 'submission_date')

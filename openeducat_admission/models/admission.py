@@ -116,8 +116,8 @@ class OpAdmission(models.Model):
     register_id = fields.Many2one(
         'op.admission.register', 'Admission Register', required=True,
         states={'done': [('readonly', True)]})
-    partner_id = fields.Many2one('res.partner', 'Partner')
-    is_student = fields.Boolean('Is Already Student')
+    partner_id = fields.Many2one('res.partner', 'Company')
+    is_student = fields.Boolean('Is Already Entrepreneur')
     fees_term_id = fields.Many2one('op.fees.terms', 'Fees Term')
 
     _sql_constraints = [

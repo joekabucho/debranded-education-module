@@ -31,7 +31,7 @@ class StudentMigrate(models.TransientModel):
     date = fields.Date('Date', required=True, default=fields.Date.today())
     course_from_id = fields.Many2one('op.course', 'From Course', required=True)
     course_to_id = fields.Many2one('op.course', 'To Course', required=True)
-    batch_id = fields.Many2one('op.batch', 'To Batch')
+    batch_id = fields.Many2one('op.batch', 'To Cohort')
     optional_sub = fields.Boolean("Optional Subjects")
     student_ids = fields.Many2many(
         'op.student', string='Student(s)', required=True)

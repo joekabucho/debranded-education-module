@@ -46,7 +46,7 @@ class OpAssignmentSubLine(models.Model):
     assignment_id = fields.Many2one(
         'op.assignment', 'Assignment', required=True)
     student_id = fields.Many2one(
-        'op.student', 'Entrepreneur,
+        'op.student', 'Entrepreneur',
         default=lambda self: self.env['op.student'].search(
             [('user_id', '=', self.env.uid)]), required=True)
     description = fields.Text('Description', track_visibility='onchange')
@@ -63,7 +63,7 @@ class OpAssignmentSubLine(models.Model):
         'res.users', related='student_id.user_id', string='User')
     faculty_user_id = fields.Many2one(
         'res.users', related='assignment_id.faculty_id.user_id',
-        string='Faculty User')
+        string='Entrepreneur User')
     user_boolean = fields.Boolean(string='Check user',
                                   compute='get_user_group')
 

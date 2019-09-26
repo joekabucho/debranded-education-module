@@ -50,7 +50,7 @@
                             <field name="media_type_id"/>
                             <field name="invoice_id"/>
                         </group>
-                        <group col="4" string="Student/Faculty Detail">
+                        <group col="4" string="Entrepreneur/Instructor Detail">
                             <field name="library_card_id"/>
                             <field name="type" readonly="1" force_save="1"/>
                             <field name="student_id" readonly="1" force_save="1"
@@ -107,7 +107,7 @@
                                 domain="[]" context="{'group_by':'media_id'}"/>
                         <filter string="Student" name="group_by_lbr_media_mvmn_student"
                                 domain="[]" context="{'group_by':'student_id'}"/>
-                        <filter string="Faculty" name="group_by_lbr_media_mvmn_faculty"
+                        <filter string="Instructor" name="group_by_lbr_media_mvmn_faculty"
                                 domain="[]" context="{'group_by':'faculty_id'}"/>
                         <filter string="Library Card" name="group_by_lbr_media_mvmn_library_card"
                                 domain="[]" context="{'group_by':'library_card_id'}"/>

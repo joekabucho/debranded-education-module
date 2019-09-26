@@ -49,18 +49,18 @@ class OpLibraryCard(models.Model):
     _description = "Library Card"
 
     partner_id = fields.Many2one(
-        'res.partner', 'Student/Faculty', required=True)
+        'res.partner', 'Instructor/Entrepreneur', required=True)
     number = fields.Char('Number', size=256, readonly=True)
     library_card_type_id = fields.Many2one(
         'op.library.card.type', 'Card Type', required=True)
     issue_date = fields.Date(
         'Issue Date', required=True, default=fields.Date.today())
     type = fields.Selection(
-        [('student', 'Student'), ('faculty', 'Faculty')],
+        [('student', 'Student'), ('faculty', 'Instructor')],
         'Type', default='student', required=True)
     student_id = fields.Many2one('op.student', 'Student',
                                  domain=[('library_card_id', '=', False)])
-    faculty_id = fields.Many2one('op.faculty', 'Faculty',
+    faculty_id = fields.Many2one('op.faculty', 'Instructor',
                                  domain=[('library_card_id', '=', False)])
 
     _sql_constraints = [(

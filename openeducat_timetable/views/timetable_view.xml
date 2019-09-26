@@ -10,7 +10,6 @@
                     <field name="faculty_id"/>
                     <field name="batch_id"/>
                     <field name="subject_id"/>
-                    <field name="classroom_id"/>
                     <field name="start_datetime"/>
                     <field name="end_datetime"/>
                     <field name="state"/>
@@ -99,7 +98,7 @@
                                 domain="[]" context="{'group_by':'faculty_id'}"/>
                         <filter string="Course" name="group_by_session_course_id"
                                 domain="[]" context="{'group_by':'course_id'}"/>
-                        <filter string="Batch" name="group_by_session_batch_id"
+                        <filter string="Cohort" name="group_by_session_batch_id"
                                 domain="[]" context="{'group_by':'batch_id'}"/>
                         <filter string="Period" name="group_by_session_timing_id"
                                 domain="[]" context="{'group_by':'timing_id'}"/>
@@ -168,7 +167,7 @@
                                     </div>
                                     <div class="oe_kanban_left">
                                         <li t-if="record.faculty_id.raw_value">
-                                            <b>Faculty:</b>
+                                            <b>Instructor:</b>
                                             <field name="faculty_id"/>
                                         </li>
                                         <li t-if="record.subject_id.raw_value">
@@ -180,7 +179,7 @@
                                             <field name="course_id"/>
                                         </li>
                                         <li t-if="record.batch_id.raw_value">
-                                            <b>Batch:</b>
+                                            <b>Cohort:</b>
                                             <field name="batch_id"/>
                                         </li>
                                         <li t-if="record.start_datetime.raw_value">
@@ -193,7 +192,7 @@
                                         </li>
                                     </div>
                                     <div class="oe_kanban_bottom_right">
-                                        <img alt="Faculty"
+                                        <img alt="Instructor"
                                              t-att-src="kanban_image('op.faculty', 'image', record.faculty_id.raw_value)"
                                              t-att-title="record.faculty_id.value" width="24" height="24"
                                              class="oe_kanban_avatar"/>

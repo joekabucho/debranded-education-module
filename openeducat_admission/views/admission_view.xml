@@ -79,7 +79,7 @@
                                            attrs="{'readonly': [('state','not in', ['draft', 'submit', 'confirm'])]}"/>
                                     <field name="is_student"/>
                                     <field name="partner_id"/>
-                                    <field name="student_id" placeholder="Student" options="{'no_create_edit': True}"
+                                    <field name="student_id" placeholder="Entrepreneur" options="{'no_create_edit': True}"
                                            attrs="{'required':[('is_student','=',True)],'invisible': [('is_student','=', False)]}"/>
                                 </group>
                             </page>
@@ -150,7 +150,7 @@
                                 domain="[]" context="{'group_by':'application_date'}"/>
                         <filter string="Course" name="group_by_adm_course_id"
                                 domain="[]" context="{'group_by':'course_id'}"/>
-                        <filter string="Batch" name="group_by_adm_batch_id"
+                        <filter string="Cohorts" name="group_by_adm_batch_id"
                                 domain="[]" context="{'group_by':'batch_id'}"/>
                         <filter string="Status" name="group_by_adm_state"
                                 domain="[]" context="{'group_by':'state'}"/>

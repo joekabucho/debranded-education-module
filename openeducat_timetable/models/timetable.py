@@ -48,9 +48,9 @@ class OpSession(models.Model):
     course_id = fields.Many2one(
         'op.course', 'Course', required=True)
     faculty_id = fields.Many2one(
-        'op.faculty', 'Faculty', required=True)
+        'op.faculty', 'Instructor', required=True)
     batch_id = fields.Many2one(
-        'op.batch', 'Batch', required=True)
+        'op.batch', 'Cohort', required=True)
     subject_id = fields.Many2one(
         'op.subject', 'Subject', required=True)
     classroom_id = fields.Many2one(

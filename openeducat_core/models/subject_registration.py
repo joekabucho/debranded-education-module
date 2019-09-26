@@ -32,7 +32,7 @@ class OpSubjectRegistration(models.Model):
                                  track_visibility='onchange')
     course_id = fields.Many2one('op.course', 'Course', required=True,
                                 track_visibility='onchange')
-    batch_id = fields.Many2one('op.batch', 'Batch', required=True,
+    batch_id = fields.Many2one('op.batch', 'Cohort', required=True,
                                track_visibility='onchange')
     compulsory_subject_ids = fields.Many2many(
         'op.subject', 'subject_compulsory_rel',

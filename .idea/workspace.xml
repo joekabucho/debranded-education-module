@@ -2,753 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853a1ce8-c36e-4166-a776-869f6d922b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/debranded-education-module.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/data/activity_type_data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/demo/activity_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/de.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/openeducat_activity.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/activity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/activity_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/static/description/activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/static/description/openeducat_activity_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/views/activity_type_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/views/activity_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/views/student_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/data/admission_sequence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/demo/admission_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/demo/admission_register_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/openeducat_admission.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/models/admission.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/models/admission_register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/report/admission_analysis_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/report/report_admission_analysis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/admission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/admission_analysis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/admission_register.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/admission_register2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/fees_payment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/openeducat_admission_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/Invoice_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/img/student_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/test/admission_register_creation.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/test/batch_course_fees.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/test/res_users_creation.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/views/admission_register_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/wizard/admission_analysis_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/wizard/admission_analysis_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/data/action_rule_data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/demo/assignment_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/demo/assignment_sub_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/demo/assignment_type_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/openeducat_assignment.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/assignment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/assignment_submission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/openeducat_assignment_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/test/assignment_creation_submission.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/test/assignment_sub_values.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/test/res_users_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/views/assignment_sub_line_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/views/assignment_type_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/views/assignment_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/views/student_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/controllers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/controllers/app_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/demo/attendance_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/demo/attendance_register_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/demo/attendance_sheet_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/de.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/openeducat_attendance.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/attendance_register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/attendance_sheet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/attendance_register.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/attendance_report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/attendance_sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/openeducat_activity_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/take_attendance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/test/attendance_process_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/test/attendance_sub_value_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/test/res_users_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/views/attendance_register_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/views/attendance_sheet_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/student_attendance_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/student_attendance_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/demo/classroom_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/openeducat_classroom.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/asset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/facility_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/static/description/classroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/static/description/openeducat_classroom_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/views/classroom_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/controllers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/controllers/app_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/base_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/batch_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/course_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/faculty_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/homepage_template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/res_partner_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/res_users_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/student_course_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/student_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/subject_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/demo/website_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/es_ES.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/openeducat_core.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/menu/faculty_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/menu/openeducat_core_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/menu/student_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/batch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/category.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/course.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/faculty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/hr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/res_company.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/res_config_setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/subject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/report/report_student_bonafide.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/report/report_student_idcard.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/batch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/courses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/faculty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/icon_faculty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/icon_student.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/openeducat_core_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/student.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/subjects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/faculty_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/img/student_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/img/openeducat_favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/img/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/img/openeducat_logo_demo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/js/dashboard_ext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/scss/base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/xml/base.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/src/xml/dashboard_ext_openeducat.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/xls/op_course.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/xls/op_faculty.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/xls/op_student.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/xls/op_subject.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/xls/res_partner.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/test/faculty_emp_user_creation.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/test/res_users_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/category_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/course_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/faculty_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/hr_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/openeducat_template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/res_company_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/res_config_setting_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/student_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/subject_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/website_assets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/faculty_create_employee_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/faculty_create_employee_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/faculty_create_user_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/faculty_create_user_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/students_create_user_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/wizard/students_create_user_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/doc/changelog.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/assignment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/attendance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/blog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/class.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/dashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/enrollment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/events.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/exam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/faculty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/financial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/media.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/news.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/openeducat-video-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/openeducat_erp_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/reporting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/session.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_erp/static/description/student.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/exam_attendees_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/exam_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/exam_room_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/exam_session_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/exam_type_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/grade_configuration_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/marksheet_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/marksheet_register_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/result_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/demo/result_template_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/openeducat_exam.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/exam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/exam_attendees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/exam_room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/exam_session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/exam_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/grade_configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/marksheet_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/marksheet_register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/res_partner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/result_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/models/result_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/report_ticket.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/student_hall_ticket_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/student_marksheet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/report/student_marksheet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/exam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/exam_session.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/openeducat_exam_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/exam_attendees_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/exam_room_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/exam_session_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/exam_type_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/exam_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/grade_configuration_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/marksheet_line_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/marksheet_register_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/res_partner_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/result_line_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/views/result_template_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/student_hall_tickets_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/student_hall_tickets_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/demo/facility_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/openeducat_facility.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/models/facility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/models/facility_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/static/description/facility.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/static/description/openeducat_facility_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/views/facility_line_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_facility/views/facility_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/course_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/fees_terms_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/fees_terms_line_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/product_category_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/product_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/demo/student_fees_details_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/openeducat_fees.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/models/course.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/models/fees_terms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/models/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/report/fees_analysis_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/report/fees_analysis_report_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/static/description/financial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/static/description/openeducat_fees_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/views/course_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/views/fees_terms_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/views/student_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/wizard/fees_detail_report_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_fees/wizard/fees_detail_report_wizard_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/data/action_rule_data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/data/custom_paperformat.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/data/media_queue_sequence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/data/product_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/author_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/library_card_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/library_card_type_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/media_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/media_movement_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/media_queue_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/media_type_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/media_unit_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/publisher_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/res_users_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/demo/tag_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/openeducat_library.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/account_invoice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/author.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/faculty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_movement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_purchase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_unit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/publisher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_library_card_barcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_library_card_barcode.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_media_barcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_media_barcode.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/report/report_student_library_card.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/authors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/media.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/media_movements.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/media_queue_request.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/media_unit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/openeducat_library_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/static/description/publisher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/test/library_sub_values.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/test/media_movements.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/test/media_purchase_request.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/test/media_queue_request.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/test/res_users_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/author_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/faculty_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/library_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_purchase_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_queue_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_type_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_unit_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/publisher_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/student_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/tag_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/issue_media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/issue_media_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/reserve_media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/reserve_media_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/return_media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/wizards/return_media_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/data/parent_user_data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/demo/parent_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/demo/res_partner_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/demo/res_users_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/openeducat_parent.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/models/parent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/static/description/openeducat_parent_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/static/description/parent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/views/parent_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/demo/op_timetable_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/demo/timing_demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/da.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/es.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/it.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/nl.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/openeducat_timetable.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/vi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/i18n/zh.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/menus/op_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/faculty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/timing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/report_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_teacher_generate.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/timetable_report_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/timetable_report_teacher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/security/op_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/generate_session.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/openeducat_timetable_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/session.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/description/timing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/static/xls/op_session.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/test/generate_timetable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/test/timetable_sub_value.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/faculty_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/timetable_templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/timing_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/session_confirmation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/session_confirmation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/time_table_report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/time_table_report.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/demo/feature_template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/demo/footer_template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/demo/homepage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/i18n/fr.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/i18n/web_openeducat.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/description/openeducat_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/description/web_home_page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/description/web_openeducat_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/js/countUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/about-sec-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/banner_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/banner_image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/blog1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/blog2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/blog3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/carousel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/center-achieve-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/center-achieve.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/img-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/page-1_img18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/parallax1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/parallax2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/popular_courses8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/scale5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/slide_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_blog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_cta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_services.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/snippets_icons/op_three_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/teacher-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/teacher-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/teacher-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/thumb-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/thumb-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/img/thumb-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/about-school.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/admissions_three_img.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/blogs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/center-achieve.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/email-section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/employee-detail.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/img_circle.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/mid-header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/navbar_mega.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/parallax_img.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/popular-courses.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/teams.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/static/src/scss/testimonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/assets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/navbar_template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippet_custom_banner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_banner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_blog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_cta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_services.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_team.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_openeducat/views/snippets/snippet_three_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_activity/models/activity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_admission/models/admission.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/models/admission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/static/description/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/models/batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/models/faculty.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/faculty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/static/description/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/views/student_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/student_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_library/models/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_movement.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/media_movement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/media_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_parent/models/parent.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_parent/models/parent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -761,21 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openeducat_core/controllers/app_main.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openeducat_timetable/views/faculty_view.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openeducat_timetable/views/timing_view.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -798,8 +73,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="119">
               <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openeducat_assignment/models/assignment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openeducat_core/views/student_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -813,15 +115,15 @@
         <entry file="file://$PROJECT_DIR$/openeducat_attendance/i18n/vi.po">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1020">
-              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openeducat_attendance/test/res_users_test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -835,6 +137,8 @@
       <find>batch</find>
       <find>student</find>
       <find>faculty</find>
+      <find>classroom</find>
+      <find>Create St</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -846,43 +150,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/openeducat_admission/models/admission_register.py" />
-        <option value="$PROJECT_DIR$/openeducat_exam/views/exam_attendees_view.xml" />
-        <option value="$PROJECT_DIR$/openeducat_timetable/menus/op_menu.xml" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/views/attendance_register_view.xml" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/models/attendance_register.py" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/i18n/vi.po" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" />
-        <option value="$PROJECT_DIR$/openeducat_assignment/i18n/openeducat_assignment.pot" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/it.po" />
-        <option value="$PROJECT_DIR$/openeducat_assignment/i18n/nl.po" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/da.po" />
-        <option value="$PROJECT_DIR$/openeducat_assignment/i18n/fr.po" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/es.po" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/zh.po" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/ar.po" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/test/attendance_sub_value_test.yml" />
-        <option value="$PROJECT_DIR$/openeducat_admission/i18n/vi.po" />
-        <option value="$PROJECT_DIR$/openeducat_attendance/i18n/it.po" />
         <option value="$PROJECT_DIR$/openeducat_timetable/test/timetable_sub_value.yml" />
         <option value="$PROJECT_DIR$/openeducat_attendance/security/op_security.xml" />
         <option value="$PROJECT_DIR$/openeducat_library/test/res_users_test.yml" />
         <option value="$PROJECT_DIR$/openeducat_attendance/wizards/student_attendance_wizard.py" />
-        <option value="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" />
         <option value="$PROJECT_DIR$/openeducat_library/test/library_sub_values.yml" />
         <option value="$PROJECT_DIR$/openeducat_timetable/i18n/it.po" />
         <option value="$PROJECT_DIR$/openeducat_library/test/media_movements.yml" />
-        <option value="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" />
         <option value="$PROJECT_DIR$/openeducat_attendance/models/attendance_sheet.py" />
         <option value="$PROJECT_DIR$/openeducat_activity/i18n/nl.po" />
         <option value="$PROJECT_DIR$/openeducat_attendance/test/res_users_test.yml" />
         <option value="$PROJECT_DIR$/openeducat_timetable/wizard/time_table_report.py" />
         <option value="$PROJECT_DIR$/openeducat_library/wizards/issue_media_view.xml" />
-        <option value="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" />
         <option value="$PROJECT_DIR$/openeducat_library/wizards/issue_media.py" />
         <option value="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_teacher_generate.xml" />
         <option value="$PROJECT_DIR$/openeducat_assignment/views/assignment_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" />
+        <option value="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" />
+        <option value="$PROJECT_DIR$/openeducat_parent/models/parent.py" />
+        <option value="$PROJECT_DIR$/openeducat_core/models/faculty.py" />
+        <option value="$PROJECT_DIR$/openeducat_admission/models/admission.py" />
+        <option value="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" />
+        <option value="$PROJECT_DIR$/openeducat_core/models/batch.py" />
+        <option value="$PROJECT_DIR$/openeducat_core/models/student.py" />
+        <option value="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" />
+        <option value="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" />
+        <option value="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" />
+        <option value="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" />
+        <option value="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" />
+        <option value="$PROJECT_DIR$/openeducat_core/static/description/index.html" />
+        <option value="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" />
+        <option value="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" />
+        <option value="$PROJECT_DIR$/openeducat_library/models/library.py" />
+        <option value="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" />
+        <option value="$PROJECT_DIR$/openeducat_library/models/media_movement.py" />
+        <option value="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" />
+        <option value="$PROJECT_DIR$/openeducat_library/models/media_queue.py" />
+        <option value="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" />
+        <option value="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_activity/models/activity.py" />
+        <option value="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" />
+        <option value="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" />
+        <option value="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" />
+        <option value="$PROJECT_DIR$/openeducat_admission/static/description/index.html" />
+        <option value="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" />
+        <option value="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" />
+        <option value="$PROJECT_DIR$/openeducat_core/views/student_view.xml" />
       </list>
     </option>
   </component>
@@ -897,17 +215,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="debranded-education-module-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="debranded-education-module-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="debranded-education-module-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="debranded-education-module-master" type="462c0819:PsiDirectoryNode" />
-              <item name="openeducat_activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="debranded-education-module-master" type="b2602c69:ProjectViewProjectNode" />
@@ -924,14 +238,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library-12.0.1.0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -962,14 +275,17 @@
       <workItem from="1569234750820" duration="2784000" />
       <workItem from="1569240067238" duration="2543000" />
       <workItem from="1569249251984" duration="1134000" />
+      <workItem from="1569310997272" duration="959000" />
+      <workItem from="1569416679481" duration="4045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9884000" />
+    <option name="totallyTimeSpent" value="14888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="697" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1055,27 +371,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/openeducat_attendance/models/attendance_register.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/openeducat_attendance/i18n/vi.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openeducat_attendance/test/res_users_test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openeducat_assignment/models/assignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openeducat_core/views/student_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
         </state>
       </provider>
     </entry>

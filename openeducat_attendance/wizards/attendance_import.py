@@ -36,7 +36,7 @@ class OpAllStudentWizard(models.TransientModel):
         default=lambda self: self.env['op.attendance.sheet'].browse(
             self.env.context['active_id']).register_id.batch_id.id or False,
         readonly=True)
-    student_ids = fields.Many2many('op.student', string='Add Student(s)')
+    student_ids = fields.Many2many('op.student', string='Add Entrepreneur(s)')
 
     @api.multi
     def confirm_student(self):

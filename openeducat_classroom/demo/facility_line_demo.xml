@@ -20,7 +20,7 @@
         </record>
 
         <record id="op_facility_line_4" model="op.facility.line">
-            <field name="quantity">2</field>
+            <field name="quantity">2</field>`
             <field name="classroom_id" ref="op_classroom_2"/>
             <field name="facility_id" ref="openeducat_facility.op_facility_1"/>
         </record>

@@ -29,7 +29,7 @@ class OpFaculty(models.Model):
     _inherit = "mail.thread"
     _inherits = {"res.partner": "partner_id"}
 
-    partner_id = fields.Many2one('res.partner', 'Partner',
+    partner_id = fields.Many2one('res.partner', 'Company',
                                  required=True, ondelete="cascade")
     middle_name = fields.Char('Middle Name', size=128)
     last_name = fields.Char('Last Name', size=128, required=True)

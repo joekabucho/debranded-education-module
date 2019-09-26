@@ -27,10 +27,10 @@ class OpParent(models.Model):
     _name = "op.parent"
     _description = "Parent"
 
-    name = fields.Many2one('res.partner', 'Name', required=True)
+    name = fields.Many2one('res.partner', 'Company', required=True)
     user_id = fields.Many2one('res.users', related='name.user_id',
                               string='User', store=True)
-    student_ids = fields.Many2many('op.student', string='Student(s)')
+    student_ids = fields.Many2many('op.student', string='Partner(s)')
     mobile = fields.Char(string='Mobile', related='name.mobile')
 
     _sql_constraints = [(

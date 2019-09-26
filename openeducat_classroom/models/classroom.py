@@ -29,7 +29,7 @@ class OpClassroom(models.Model):
     name = fields.Char('Name', size=16, required=True)
     code = fields.Char('Code', size=16, required=True)
     course_id = fields.Many2one('op.course', 'Course')
-    batch_id = fields.Many2one('op.batch', 'Batch')
+    batch_id = fields.Many2one('op.batch', 'Cohorts')
     capacity = fields.Integer(string='No of Person')
     facilities = fields.One2many('op.facility.line', 'classroom_id',
                                  string='Facility Lines')

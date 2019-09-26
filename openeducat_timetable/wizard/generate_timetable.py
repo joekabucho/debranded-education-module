@@ -34,7 +34,7 @@ class GenerateSession(models.TransientModel):
     _rec_name = "course_id"
 
     course_id = fields.Many2one('op.course', 'Course', required=True)
-    batch_id = fields.Many2one('op.batch', 'Batch', required=True)
+    batch_id = fields.Many2one('op.batch', 'Cohort', required=True)
     time_table_lines = fields.One2many(
         'gen.time.table.line', 'gen_time_table', 'Time Table Lines')
     time_table_lines_1 = fields.One2many(

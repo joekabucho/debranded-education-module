@@ -11,6 +11,8 @@
                     <field name="timing_id"/>
                     <field name="faculty_id"/>
                     <field name="subject_id"/>
+                </tree>
+            </field>
             <field name="name">gen.time.table.line.form</field>
             <field name="model">gen.time.table.line</field>
             <field name="priority" eval="8"/>

@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853a1ce8-c36e-4166-a776-869f6d922b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/models/activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_activity/models/activity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_activity/wizard/student_migrate_wizard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/models/admission.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/models/admission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/static/description/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_admission/views/admission_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/models/assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/models/assignment_sub_line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/security/op_security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_assignment/static/description/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/models/attendance_line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/report/student_attendance_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/static/description/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/views/attendance_line_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_attendance/wizards/attendance_import.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_classroom/demo/facility_line_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_classroom/models/classroom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/faculty.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/faculty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/models/subject_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/static/description/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/batch_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/student_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/student_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_core/views/subject_registration_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_exam/wizard/held_exam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_exam/wizard/room_distribution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_movement.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/media_movement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/models/media_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/models/media_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_library/views/media_movement_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_parent/models/parent.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_parent/models/parent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/models/timetable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/report/report_timetable_student_generate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/views/timetable_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openeducat_timetable/wizard/generate_timetable_view.xml" afterDir="false" />
-    </list>
+    <list default="true" id="853a1ce8-c36e-4166-a776-869f6d922b73" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -276,12 +238,12 @@
       <workItem from="1569240067238" duration="2543000" />
       <workItem from="1569249251984" duration="1134000" />
       <workItem from="1569310997272" duration="959000" />
-      <workItem from="1569416679481" duration="4045000" />
+      <workItem from="1569416679481" duration="4641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14888000" />
+    <option name="totallyTimeSpent" value="15484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="697" extended-state="6" />
